@@ -87,7 +87,7 @@ const HeroContent = () => {
         <motion.a
   variants={slideInFromLeft(1)}
   target="_blank"
-  href="https://drive.google.com/file/d/1D3wjt7SlmMlfvqd_WwuLtxEe5vhHdvTp/view?usp=sharing"  // Replace this with the actual path to your resume
+  href="https://drive.google.com/file/d/1ZGvXWS7G0oSDNjXO3xj7D7oqcnwlGcPo/view?usp=sharing"  // Replace this with the actual path to your resume
   download="Your-Resume.pdf"       // This specifies the name of the file to save as
   className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
 >

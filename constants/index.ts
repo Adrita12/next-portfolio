@@ -195,6 +195,30 @@ export const Skill_data = [
       width: 50,
       height: 50,
     },
+    {
+      skill_name: "Pandas",
+      Image: "/pandas.png",
+      width: 50,
+      height: 50,
+    },
+    {
+      skill_name: "Numpy",
+      Image: "/numpy.png",
+      width: 50,
+      height: 50,
+    },
+    {
+      skill_name: "Matplotlib",
+      Image: "/matplotlib.png",
+      width: 50,
+      height: 50,
+    },
+    {
+      skill_name: "Seaborn",
+      Image: "/seaborn.png",
+      width: 50,
+      height: 50,
+    },
   ];
   
   
