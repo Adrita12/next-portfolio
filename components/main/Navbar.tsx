@@ -21,19 +21,22 @@ function Navbar() {
             height={50}
             className="cursor-pointer hover:animate-slowspin"
           />
-          <span className="font-bold ml-[10px] md:block text-gray-100">
+          <span className="font-bold ml-[10px] hidden sm:block text-gray-100 text-sm md:text-base">
             Adrita Bhattacharjee
           </span>
         </a>
 
         {/* Desktop Links */}
-        <div className="hidden md:flex w-[350px] h-full items-center justify-between md:mr-20">
+        <div className="hidden md:flex w-[500px] h-full items-center justify-between md:mr-20">
           <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] px-[20px] py-[10px] rounded-full text-gray-200">
             <a href="#about-me" className="cursor-pointer">
               About me
             </a>
             <a href="#skills" className="cursor-pointer">
               Skills
+            </a>
+            <a href="#experience" className="cursor-pointer">
+              Experience
             </a>
             <a href="#projects" className="cursor-pointer">
               Projects
@@ -72,13 +75,16 @@ function Navbar() {
 
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
-        <div className="md:hidden w-full bg-[#0300145e] text-gray-200 px-5 py-4">
+        <div className="md:hidden w-full bg-[#030014e6] backdrop-blur-md text-gray-200 px-5 py-4 border-t border-[#7042f861]">
           <div className="flex flex-col space-y-4">
             <a href="#about-me" className="cursor-pointer" onClick={() => setMobileMenuOpen(false)}>
               About me
             </a>
             <a href="#skills" className="cursor-pointer" onClick={() => setMobileMenuOpen(false)}>
               Skills
+            </a>
+            <a href="#experience" className="cursor-pointer" onClick={() => setMobileMenuOpen(false)}>
+              Experience
             </a>
             <a href="#projects" className="cursor-pointer" onClick={() => setMobileMenuOpen(false)}>
               Projects
